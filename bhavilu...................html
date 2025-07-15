@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Happy Birthday!</title>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.5em;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+      margin: 20px 0;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .message {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 15px;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #f0f0f0;
+    }
+    .countdown {
+      font-size: 1.5em;
+      margin-top: 30px;
+      color: #fff8f8;
+    }.cake {
+      text-align: center;
+      font-size: 100px;
+      margin-top: 20px;
+    }
+    .balloon {
+      position: absolute;
+      font-size: 50px;
+      animation: float 4s infinite ease-in-out;
+    } 
+    @keyframes float {
+      0% { transform: translateY(100vh); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: translateY(-100vh); opacity: 0; }
+    }
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: rgb(229, 255, 0);
+      animation: fall 2s infinite ease-in;
+    }
+    @keyframes fall {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(100vh); opacity: 0; }
+    }
+    .star {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: rgb(245, 221, 5);
+  border-radius: 100%;
+  animation: twinkle 3s infinite ease-in-out;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+}
+.firework {
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      background: red;
+      border-radius: 50%;
+      animation: explode 1s ease-out forwards;
+    }
+
+    @keyframes explode {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(10); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday,bhavi(princess) 🎉</h1>
+    <h2>Wishing you joy, love, and laughter on your special day!</h2>
+    <img src="E:\cousre certificate\shinchan.jpg" alt="Birthday Image" />
+    <!-- Balloons -->
+  <div class="balloon" style="left: 10%; animation-delay: 0s;">🎈</div>
+  <div class="balloon" style="left: 20%; animation-delay: 1s;">🎈</div>
+  <div class="balloon" style="left: 30%; animation-delay: 2s;">🎈</div>
+  <div class="balloon" style="left: 40%; animation-delay: 3s;">🎈</div>
+  <div class="balloon" style="left: 50%; animation-delay: 4s;">🎈</div>
+  <div class="balloon" style="left: 60%; animation-delay: 5s;">🎈</div>
+  <div class="balloon" style="left: 70%; animation-delay: 6s;">🎈</div>
+  <div class="balloon" style="left: 80%; animation-delay: 7s;">🎈</div>
+  <div class="balloon" style="left: 90%; animation-delay: 8s;">🎈</div>
+  <div class="balloon" style="left: 200%; animation-delay: 9s;">🎈</div>
+  <div class="balloon" style="right: 100%; animation-delay: 10s;">🎈</div>
+
+  <!-- Confetti -->
+  <div class="confetti" style="left: 10%; animation-delay: 0s;"></div>
+  <div class="confetti" style="left: 20%; animation-delay: 1s;"></div>
+  <div class="confetti" style="left: 30%; animation-delay: 2s;"></div>
+  <div class="confetti" style="left: 40%; animation-delay: 3s;"></div>
+  <div class="confetti" style="left: 50%; animation-delay: 4s;"></div>
+  <div class="confetti" style="left: 60%; animation-delay: 5s;"></div>
+  <div class="confetti" style="left: 70%; animation-delay: 6s;"></div>
+  <div class="confetti" style="left: 80%; animation-delay: 7s;"></div>
+  <div class="confetti" style="left: 90%; animation-delay: 8s;"></div>
+  <div class="confetti" style="left: 100%; animation-delay: 9s;"></div>
+  <!--star-->
+  <div class="star" style="top: 10%; left: 15%; animation-delay: 0s;"></div>
+<div class="star" style="top: 30%; left: 45%; animation-delay: 0.5s;"></div>
+<div class="star" style="top: 50%; left: 65%; animation-delay: 1s;"></div>
+<div class="star" style="top: 70%; left: 25%; animation-delay: 1.5s;"></div>
+<div class="star" style="top: 80%; left: 85%; animation-delay: 2s;"></div>
+<div class="star" style="bottom: 70%; left: 25%; animation-delay: 1.5s;"></div>
+<div class="star" style="bottom: 80%; left: 85%; animation-delay: 2s;"></div>
+
+ <!-- Fireworks (temporary burst) -->
+  <div class="firework" style="top: 10%; left: 10%; animation-delay: 1s;"></div>
+  <div class="firework" style="top: 20%; left: 20%; animation-delay: 2s;"></div>
+  <div class="firework" style="top: 30%; left: 30%; animation-delay: 1s;"></div>
+  <div class="firework" style="top: 40%; left: 40%; animation-delay: 2s;"></div>
+  <div class="firework" style="top: 50%; left: 50%; animation-delay: 1s;"></div>
+  <div class="firework" style="top: 60%; left: 60%; animation-delay: 2s;"></div>
+
+    <div class="message">
+      <p>..........................................................................................................................................................................
+        Dear [Bhavi],</p>
+      <p>This was made by your just friend.
+      that really learned it to give my best out of this.</p>
+      <p>edi chesa daka koda telidu naku entha telusu anni so ammi anna thapu untha sorry .</p>
+      <p>
+        On this special day, I want you to know how much you mean to me.
+        You're not just a best friend, you're family. 
+        Here's to countless memories, inside jokes, and adventures yet to come.
+        May your birthday be as amazing as your heart is!
+      </p>
+      <p>I'll be there when you're crying.
+        I'll be there when you're sad.
+        I'll be there when you need me.
+        I want to be your chicken 
+      </p>
+      <p>the hand that hold you when you are down,</p>
+      <p>finally no sorry's and thanks will be acceptable from now </p>
+      <p>With all my love, <br/> [Your lohith]</p>
+    </div>
+<p>First time oka la birthday kosam entha wait chesthuna</p>
+    <div class="countdown" id="countdown"></div>
+  </div>
+  <img src="C:\Users\sailo\OneDrive\Pictures\Screenshots\Screenshot 2025-07-06 162918.png" alt="Birthday Image" />
+    <div class="footer">Made with ❤️ for you</div>
+  <script>
+    // Countdown to July 20
+    const countdownEl = document.getElementById("countdown");
+    const targetDate = new Date("2025-07-20T00:00:00");
+    function updateCountdown() {
+      const now = new Date();
+      const diff = targetDate - now;
+      if (diff <= 0) {
+        countdownEl.innerHTML = "🎂 It's your Birthday today! 🎉";
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+      countdownEl.innerHTML = `🎈 Countdown to your birthday: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
+</body>
+</html>
